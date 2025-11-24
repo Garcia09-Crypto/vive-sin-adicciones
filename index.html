@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<img src="tlb.png" alt="" style="width:65px; height:auto; position:absolute; top:20px; left:5px;">
+<title>ViveLibre5 - Todo sobre las Adicciones</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #e8f5e9;
+        color: #1b5e20;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background: #2e7d32;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .sub {
+        font-size: 16px;
+        margin-top: 5px;
+        font-weight: normal;
+    }
+
+    .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    button {
+        background: #43a047;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 90%;
+        max-width: 300px;
+    }
+
+    button:hover {
+        background: #2e7d32;
+    }
+
+    .content-section {
+        display: none;
+        background: white;
+        padding: 20px;
+        margin: 15px;
+        border-radius: 8px;
+        border-left: 6px solid #2e7d32;
+        box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        color: #1b5e20;
+    }
+
+    .citation {
+        font-size: 14px;
+        margin-top: 10px;
+        color: #33691e;
+    }
+</style>
+
+<script>
+function mostrar(id) {
+    document.querySelectorAll(".content-section")
+    .forEach(section => section.style.display = "none");
+
+    document.getElementById(id).style.display = "block";
+}
+</script>
+
+</head>
+<body>
+
+<header>
+    ViveLibre5 – Todo sobre las Adicciones
+    <div class="sub">
+        Equipo: Yahel, Karla, Katherine, Berna y Manuela <br>
+        Telebachillerato Comunitario Las Cumbres Núm. 10
+    </div>
+</header>
+
+<div class="button-container">
+    <button onclick="mostrar('prevencion')">Prevención</button>
+    <button onclick="mostrar('consecuencias')">Consecuencias</button>
+    <button onclick="mostrar('tipos')">Tipos de Adicciones</button>
+    <button onclick="mostrar('drogas')">Drogas y Sobrenombres</button>
+    <button onclick="mostrar('fentanilo')">Fentanilo</button>
+    <button onclick="mostrar('ayuda')">Dónde pedir ayuda</button>
+</div>
+
+<!-- PREVENCIÓN -->
+<div id="prevencion" class="content-section">
+    <h2>Prevención de Adicciones</h2>
+    <p>
+        La prevención incluye educación emocional, autoestima, comunicación familiar,
+        actividades deportivas y evitar el consumo temprano.La prevención de adicciones es nuestra herramienta más
+        poderosa, enfocada en desarrollar habilidades de vida como la asertividad y el manejo del estrés para 
+        evitar caer en el consumo, que en el caso de sustancias como la Metanfetamina y el Fentanilo, representan 
+        un riesgo de muerte o daño cerebral irreversible. En el ámbito legal de Tijuana, la posesión de drogas 
+        está estrictamente regulada por la Ley General de Salud:
+        <br><br>
+        Artículo 475.- Se impondrá prisión de cuatro a ocho años y de doscientos a cuatrocientos días multa, 
+        a quien sin autorización comercie o suministre, aún gratuitamente, narcóticos previstos en la tabla, en 
+        cantidad inferior a la que resulte de multiplicar por mil el monto de las previstas en dicha tabla. 
+        Cuando la víctima fuere persona menor de edad o que no tenga capacidad para comprender la 
+        relevancia de la conducta o para resistir al agente; o que aquélla fuese utilizada para la comisión de los 
+        mismos se aplicará una pena de siete a quince años de prisión y de doscientos a cuatrocientos días 
+        multa. 
+        <br>
+        Las penas que en su caso resulten aplicables por este delito serán aumentadas en una mitad, cuando: 
+        <br>I.  
+         Se cometan por servidores públicos encargados de prevenir, denunciar, investigar, juzgar o 
+         ejecutar las sanciones por la comisión de conductas prohibidas en el presente capítulo. Además, 
+         en este caso, se impondrá a dichos servidores públicos destitución e inhabilitación hasta por un 
+         tiempo igual al de la pena de prisión impuesta; 
+        <br>II.
+         Se cometan en CENTROS EDUCATIVOS, asistenciales, policiales o de reclusión, o dentro del espacio 
+         comprendido en un radio que diste a menos de trescientos metros de los límites de la colindancia 
+         del mismo con quienes a ellos acudan, o 
+        <br>III.
+         La conducta sea realizada por profesionistas, técnicos, auxiliares o personal relacionado con las 
+         disciplinas de la salud en cualesquiera de sus ramas y se valgan de esta situación para 
+         cometerlos. En este caso se impondrá, además, suspensión e inhabilitación de derechos o 
+         funciones para el ejercicio profesional u oficio hasta por cinco años. En caso de reincidencia 
+         podrá imponerse, además, suspensión definitiva para el ejercicio profesional, a juicio de la 
+         autoridad judicial.
+<br><br>
+              Artículo 479.- Para los efectos de este capítulo se entiende que el narcótico está destinado para su 
+         estricto e inmediato consumo personal, cuando la cantidad del mismo, en cualquiera de sus formas, 
+         derivados o preparaciones no exceda de las previstas en el listado siguiente: 
+         <br>Tabla de Orientación de Dosis Máximas de Consumo Personal e Inmediato 
+         Narcótico   |     Dosis máxima de consumo personal e inmediato 
+         opio        | 2 gr.
+Diacetilmorfina o Heroína | 50 mg.
+Cannabis Sativa, Indica o Mariguana | 5 gr.
+Cocaína| 500 mg.
+Lisergida (LSD) |0.015 mg. 
+narcotico    |     Polvo, granulado o crista      |   Tabletas o cápsulas 
+MDA, 
+Metilendioxianfetamina|40 mg.|Una unidad con peso no mayor a 200 mg.
+MDMA, dl-34-metilendioxi-n
+dimetilfeniletilamina |40 mg.|Una unidad con peso no mayor a 200 mg.
+Metanfetamina |40 mg.|Una unidad con peso no mayor a 200 mg.
+
+    </p>
+    <p class="citation">
+        Fuente: Estrategia Nacional para la Prevención de Adicciones (ENPA), Gobierno de México, LEY GENERAL DE SALUD Última Reforma DOF 07-06-2024 .
+    </p>
+</div>
+
+<!-- CONSECUENCIAS -->
+<div id="consecuencias" class="content-section">
+    <h2>Consecuencias de las Adicciones</h2>
+    <p>
+        Las adicciones causan daños físicos, pérdida de memoria, depresión, ansiedad,
+        problemas familiares y riesgo de muerte.</p>
+        <img src="conse.jpg" alt="" style="width:33%; height:auto; margin-bottom:8px;
+    <p class="citation">
+        Fuente: CONADIC – Comisión Nacional contra las Adicciones.
+    </p>
+</div>
+
+<!-- TIPOS DE ADICCIONES -->
+<div id="tipos" class="content-section">
+    <h2>Tipos de Adicciones</h2>
+    <ul>
+        <li>Sustancias: alcohol, tabaco, drogas ilegales.</li>
+        <li>Conductuales: videojuegos, apuestas, redes sociales.</li>
+        <li>Emocionales: dependencia afectiva.</li>
+    </ul>
+    <p class="citation">
+        Fuente: Centros de Integración Juvenil (CIJ).
+    </p>
+</div>
+
+<!-- DROGAS -->
+<div id="drogas" class="content-section">
+    <h2>Drogas y Sobrenombres en México</h2>
+    <p><strong>Marihuana:</strong> mota, verde, churro.</p>
+    <p><strong>Cocaína:</strong> perico, coca, nieve.</p>
+    <p><strong>Cristal (metanfetamina):</strong> hielo, foco.</p>
+    <p><strong>Heroína:</strong> chiva, negra.</p>
+<img src="drog.png" alt="" style="width:33%; height:auto; margin-bottom:8px;">
+    <p class="citation">
+        Fuente: Observatorio Mexicano de Salud Mental y Consumo de Drogas 2024.
+    </p>
+</div>
+
+<!-- FENTANILO -->
+<div id="fentanilo" class="content-section">
+    <h2>Fentanilo</h2>
+    <p>
+        El fentanilo es un opioide sintético extremadamente potente:
+        50 veces más fuerte que la heroína y 100 veces más fuerte que la morfina.
+    </p>
+    <p>
+        Una dosis tan pequeña como 2 mg puede causar una sobredosis mortal.
+        En México Un problema grave es que el fentanilo a menudo se mezcla con otras drogas
+       sin que la persona consumidora lo sepa. Sustancias como la Heroína, la Metanfetamina, la Cocaína
+        e incluso algunas Pastillas vendidas como medicamentos falsos suelen estar adulteradas con FENTANILO
+         para incrementar su efecto o para abaratar costos de producción. Esto vuelve al consumo mucho más riesgoso
+         , porque las personas no saben que consumen.
+    </p>
+
+    <h3>Riesgos:</h3>
+    <ul>
+        <li>Muerte por sobredosis</li>
+        <li>Depresión respiratoria</li>
+        <li>Perdida de conciencia</li>
+        <li>Adicción inmediata</li>
+    </ul>
+
+    <h3>Señales de sobredosis:</h3>
+    <ul>
+        <li>Respiración lenta o ausente</li>
+        <li>Pupilas muy pequeñas</li>
+        <li>Piel fría o azulada</li>
+    </ul>
+ <img src="fen.jpg" alt="" srcset= "" style="width:33%; height:auto; margin-bottom:8px;">
+    <p class="citation">
+        Fuentes: CONADIC; Secretaría de Marina – Reporte de Drogas Sintéticas 2024.
+    </p>
+</div>
+
+<!-- AYUDA -->
+<div id="ayuda" class="content-section">
+    <h2>Dónde pedir ayuda</h2>
+
+    <p><strong>Línea de la Vida:</strong>  
+    800 911 2000 — Atención 24/7</p>
+
+    <p><strong>Centros de Integración Juvenil (CIJ):</strong><br>
+    Apoyo psicológico, médico y tratamiento.</p>
+
+    <p><strong>CAPA:</strong>  
+    Centros de Atención Primaria a las Adicciones. Servicios gratuitos.</p>
+
+    <p class="citation">
+        Fuentes: Secretaría de Salud; CIJ; Línea de la Vida.
+    </p>
+</div>
+
+</body>
+</html>
